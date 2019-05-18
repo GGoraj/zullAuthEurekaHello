@@ -10,10 +10,10 @@ import org.springframework.web.client.RestTemplate;
 
 
 /**
- *  Routing starting point is defined in 'authorization' gateway in application.properties.
- *  Zull proxy starts routing to 'hello service' from '/hello'
- *  So keep in mind that any routing in this controller must start with '/hello/'
- *  When you call the service in Postman
+ * Routing starting point is defined in 'authorization' gateway in application.properties.
+ * Zull proxy starts routing to 'hello service' from '/hello'
+ * So keep in mind that any routing in this controller must start with '/hello/'
+ * When you call the service in Postman
  */
 @RestController
 @RequestMapping("/")
