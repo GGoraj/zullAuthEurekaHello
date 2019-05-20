@@ -5,16 +5,16 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="markedtoread")
+//@Entity
+//@Table(name="markedtoread")
 public class MarkedToRead {
 
-    @Id
-    @Column(name="userid")
+//    @Id
+ //   @Column(name="userid")
     private Integer userId;
 
-    @Id
-    @Column(name="bookid")
+  //  @Id
+  //  @Column(name="bookid")
     private Integer bookId;
 
 
