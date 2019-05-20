@@ -21,5 +21,4 @@ public class BookController {
     public Book getBookById(@PathVariable("id") Integer id){
         return service.getBookById(id);
     }
-
 }
